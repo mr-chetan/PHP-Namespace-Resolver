@@ -4,9 +4,11 @@
 
 # PHP Namespace Resolver
 
-[![Version](https://vsmarketplacebadges.dev/version/MehediDracula.php-namespace-resolver.svg)](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/MehediDracula.php-namespace-resolver.svg)](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
-[![Rating](https://vsmarketplacebadges.dev/rating-short/MehediDracula.php-namespace-resolver.svg)](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+> **Note:** This is a customized fork maintained by MrChetan. It includes bug fixes for parsing and sorting traits inside anonymous classes.
+
+[![Version](https://vsmarketplacebadges.dev/version/MrChetan.php-namespace-resolver.svg)](https://marketplace.visualstudio.com/items?itemName=MrChetan.php-namespace-resolver)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/MrChetan.php-namespace-resolver.svg)](https://marketplace.visualstudio.com/items?itemName=MrChetan.php-namespace-resolver)
+[![Rating](https://vsmarketplacebadges.dev/rating-short/MrChetan.php-namespace-resolver.svg)](https://marketplace.visualstudio.com/items?itemName=MrChetan.php-namespace-resolver)
 
 Import, expand, sort, and manage PHP namespaces with full PHP 8+ support. Detects unimported and unused classes, offers quick fixes, and keeps your imports clean.
 

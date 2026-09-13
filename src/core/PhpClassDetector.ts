@@ -336,7 +336,7 @@ export class PhpClassDetector {
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
             if (!pastClassDeclaration) {
-                if (/^\s*(?:abstract\s+|final\s+|readonly\s+)*(?:class|trait|interface|enum)\s+\w+/.test(line)) {
+                if (/^\s*(?:abstract\s+|final\s+|readonly\s+)*(?:class|trait|interface|enum)\s+\w+|\bnew\s+(?:readonly\s+)?class\b/.test(line)) {
                     pastClassDeclaration = true;
                 }
                 continue;
